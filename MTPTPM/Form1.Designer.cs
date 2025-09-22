@@ -46,7 +46,7 @@
             // 
             // txtusername
             // 
-            this.txtusername.Location = new System.Drawing.Point(166, 62);
+            this.txtusername.Location = new System.Drawing.Point(198, 65);
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(192, 22);
             this.txtusername.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             // txtpassword
             // 
-            this.txtpassword.Location = new System.Drawing.Point(166, 153);
+            this.txtpassword.Location = new System.Drawing.Point(198, 153);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(192, 22);
             this.txtpassword.TabIndex = 3;
@@ -71,16 +71,17 @@
             // 
             this.btnlogin.Location = new System.Drawing.Point(181, 239);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(87, 27);
+            this.btnlogin.Size = new System.Drawing.Size(127, 27);
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(477, 333);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.label2);

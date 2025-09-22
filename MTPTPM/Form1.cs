@@ -16,5 +16,18 @@ namespace MTPTPM
         {
             InitializeComponent();
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            if (txtusername.Text == "admin" && txtpassword.Text == "admin")
+            {
+                MessageBox.Show("Đăng nhập thành công!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+
+            {
+                MessageBox.Show("Thất bại", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
